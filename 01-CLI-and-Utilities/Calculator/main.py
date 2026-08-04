@@ -8,6 +8,6 @@ elif b== "-" :
 elif b== "*" :
   print("The output is:",a*c)
 elif b== "/" :
-  print("The output is:",a/b)
+  print("The output is:",a/c)
 else:
   print("Invalid operator")
