@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "title": "France to ban unsolicited telemarketing calls",
+        "link": "https://www.lemonde.fr/en/france/article/2026/08/06/france-to-ban-unsolicited-telemarketing-calls-from-august-11_6756208_7.html"
+    },
+    {
+        "id": 2,
+        "title": "H3-metal – Native MiniMax-H3 inference for Apple Silicon",
+        "link": "https://github.com/antirez/h3.c"
+    },
+    {
+        "id": 3,
+        "title": "As AI eats the web, the internet’s collective memory is disappearing",
+        "link": "https://thewalrus.ca/google-search-is-dying/"
+    },
+    {
+        "id": 4,
+        "title": "To Save C, We Must Save ABI",
+        "link": "https://thephd.dev/to-save-c-we-must-save-abi-fixing-c-function-abi"
+    },
+    {
+        "id": 5,
+        "title": "London Underground begins scanning passengers' faces",
+        "link": "https://www.btp.police.uk/news/btp/news/england/btp-expands-live-facial-recognition-lfr-trial-into-london-underground-stations/"
+    },
+    {
+        "id": 6,
+        "title": "Chicken Scheme 6.0",
+        "link": "https://code.call-cc.org/releases/6.0.0/NEWS"
+    },
+    {
+        "id": 7,
+        "title": "LFM2.5 2.6B model competitive with 4x larger models",
+        "link": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+    },
+    {
+        "id": 8,
+        "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+        "link": "https://cactuscompute.com/needle"
+    },
+    {
+        "id": 9,
+        "title": "Show HN: Mcptoon – Token-efficient MCP CLI client",
+        "link": "https://github.com/activeing123/mcptoon"
+    },
+    {
+        "id": 10,
+        "title": "Show HN: Scroll through all 43252003274489856000 Rubik's Cube states",
+        "link": "https://everycube.alen.is/"
+    },
+    {
+        "id": 11,
+        "title": "About Rx Kids",
+        "link": "https://rxkids.org/about/"
+    },
+    {
+        "id": 12,
+        "title": "Mark Zuckerberg attacks 'closed' AI rivals as Meta returns to open models",
+        "link": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878"
+    },
+    {
+        "id": 13,
+        "title": "The “mechanical miracle” that ruined Mark Twain’s life",
+        "link": "https://resobscura.substack.com/p/the-mechanical-miracle-that-ruined"
+    },
+    {
+        "id": 14,
+        "title": "Recycle – Floppydisks",
+        "link": "https://www.floppydisk.com/recycle"
+    },
+    {
+        "id": 15,
+        "title": "Programming the Gigatron",
+        "link": "https://www.iwriteiam.nl/PGigatron.html"
+    }
+]
