@@ -5,16 +5,16 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 
-# Load API Key from .env file
+# Load API Key securely from .env file
 load_dotenv()
 API_KEY = os.getenv("WEATHER_API_KEY")
-BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
+BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 console = Console()
 
 def get_weather(city: str):
     if not API_KEY:
-        console.print("[bold red]Error:[/] API key missing. Check your .env file.")
+        console.print("[bold red]Error:[/] API key missing or .env file not loaded.")
         return
 
     params = {
@@ -25,7 +25,12 @@ def get_weather(city: str):
 
     try:
         response = requests.get(BASE_URL, params=params)
-        response.raise_for_status()
+        
+        if response.status_code != 200:
+            error_data = response.json()
+            console.print(f"[bold red]API Error ({response.status_code}):[/] {error_data.get('message', 'Unknown error')}")
+            return
+
         data = response.json()
 
         city_name = data["name"]
@@ -46,8 +51,6 @@ def get_weather(city: str):
 
         console.print(table)
 
-    except requests.exceptions.HTTPError:
-        console.print(f"[bold red]City '{city}' not found or API request failed.[/]")
     except Exception as e:
         console.print(f"[bold red]An error occurred:[/] {e}")
 
